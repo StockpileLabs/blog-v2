@@ -24,7 +24,7 @@ interface Props {
         <p class="text-xl mt-4">{formatDate(article.data.pubDate)}</p>
 
         <div class="flex mt-4 justify-center">
-            {article.data.tags.map((tag) => (
+            {article.data.tags.map((tag: string) => (
                 <span class="px-2 py-1 border text-white rounded-full text-xs mr-2">
                     {tag}
                 </span>
