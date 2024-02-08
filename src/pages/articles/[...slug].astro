@@ -21,13 +21,22 @@ const { Content } = await entry.render();
 ---
 
 <MainLayout>
-    <a href="/articles" class="inline-block bg-gray-100 p-2 mb-6 hover:bg-indigo-500 hover:text-white">Back To Articles</a>
+    <a href="/articles" class="inline-block rounded-md bg-gray-100 p-2 mb-6 hover:bg-indigo-500 hover:opacity-55">Back To Articles</a>
     <article>
-      <h1 class="text-4xl font-bold mb-2">{entry.data.title}</h1>
-      <h3 class="text-lg mb-2">Written by {entry.data.author} on {formatDate(entry.data.pubDate)}</h3>
-      <Tags tags={entry.data.tags}/>
-      <img src={'/images/' + entry.data.image} alt="Article Image" class="w-full h-auto rounded-xl mb-6" />
+    <div class="flex flex-row justify-between gap-12">
+      <div class="mr-16 mt-24">
+        <h1 class="text-4xl font-bold mb-4">{entry.data.title}</h1>
+        <h3 class="text-lg mb-2">Written by <span class="font-bold text-spblack">{entry.data.author}</span></h3>
+        <h3 class="text-lg mb-4">Published on <span class="font-bold text-spblack">{formatDate(entry.data.pubDate)}</span></h3>
+        <Tags tags={entry.data.tags}/>
+      </div>
+      <div>
+        <img src={'/images/' + entry.data.image} alt="Article Image" class=" h-auto rounded-xl mb-6" height={375} width={666}/>
+      </div>
+    </div>
+    <div class="px-16 text-justify">
       <Content />
+    </div>
     </article>
 </MainLayout>
 
@@ -43,8 +52,7 @@ const { Content } = await entry.render();
     }
 
     h3{
-        margin: 20px 0;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: semibold;
     }
 </style>

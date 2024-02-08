@@ -1,13 +1,13 @@
 ---
-title: "Introducing Stockpile V2"
-pubDate: 2024-01-20
+title: "Introducing Open Grants"
+pubDate: 2024-02-08
 author: "Joey Meere"
 image: "image1.png"
 tags: ["updates", "features"]
-slug: introducing-stockpile-v2
+slug: what-is-open-grants
 ---
 
-We are thrilled to announce the launch of Stockpile v2, our new and improved platform that transforms    how funds are raised and allocated. Building on the success of our initial v1, we incorporated feedback and built a new program to create a more impactful and feature-rich experience.
+> We are thrilled to announce the launch of Stockpile v2, our new and improved platform that transforms    how funds are raised and allocated. Building on the success of our initial v1, we incorporated feedback and built a new program to create a more impactful and feature-rich experience.
 
 ## What’s New in Stockpile v2:
 
@@ -28,4 +28,4 @@ The open-grants model places the power in the hands of the community, ensuring t
 ### Enhanced Transparency
 Stockpile v2 offers a high level of transparency in fund allocation, providing clear insights into how funds are being distributed and utilized.
 
-The launch of Stockpile v2 marks a new era in fundraising and grant distribution on Solana. We are committed to continuously evolving and enhancing our product offering to meet the needs of a diverse user base, and foster transparency in grant processes. Ultimately, Stockpile is more than just a platform; it’s a movement towards a more democratic and fair approach to fundraising. We invite you to explore the new features and be a part of this exciting journey. Together, let’s redefine what it means to support and fund the projects that matter to us.
+> The launch of Stockpile v2 marks a new era in fundraising and grant distribution on Solana. We are committed to continuously evolving and enhancing our product offering to meet the needs of a diverse user base, and foster transparency in grant processes. Ultimately, Stockpile is more than just a platform; it’s a movement towards a more democratic and fair approach to fundraising. We invite you to explore the new features and be a part of this exciting journey. Together, let’s redefine what it means to support and fund the projects that matter to us.

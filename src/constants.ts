@@ -4,3 +4,5 @@ export const SITE_DESCRIPTION =
 
 export const HOMEPAGE_ARTICLE_LIMIT = 3;
 export const ARTICLES_PER_PAGE = 6;
+
+// resize images to 5334x3000
